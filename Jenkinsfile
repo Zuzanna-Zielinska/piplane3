@@ -17,11 +17,11 @@ pipeline {
         //     }
         // }
 
-        stage('version') {
-            steps {
-                python3 --version
-            }
-            }
+        // stage('version') {
+        //     steps {
+        //         python --version
+        //     }
+        //     }
         
         // stage('Tree') {
         //     steps {
