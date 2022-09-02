@@ -13,6 +13,12 @@ pipeline {
                 bat 'python --version'
             }
             }
+
+        stage('tree') {
+            steps {
+                bat 'python --version'
+            }
+            }
         
     }
 }
