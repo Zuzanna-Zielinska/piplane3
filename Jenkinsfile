@@ -16,7 +16,7 @@ pipeline {
 
         stage('tree') {
             steps {
-                bat 'python --version'
+                bat 'python tree.py'
             }
             }
         
